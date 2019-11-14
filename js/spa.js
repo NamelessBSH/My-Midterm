@@ -25,14 +25,18 @@ app.config(function($routeProvider) {
         controller: 'StoryController',
         templateUrl: 'app/views/about.html'
       })
+
+
+
   .when('/services',
      {
        controller: 'AdamController',
        templateUrl: 'app/views/services.html'
      })
-   .when('/test',
-      {
-        controller: 'AdamController',
-        templateUrl: 'app/views/test.html'
-      })
+
+     .when('/test',
+        {
+          controller: 'AdamController',
+          templateUrl: 'app/views/test.html'
+        })
 });
